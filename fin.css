@@ -1,0 +1,407 @@
+.nav1 {
+	background-color:#261431;
+	padding: 9px;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:300px;
+	padding-right:300px;
+    padding-bottom:5px;
+	padding-top:10px;
+}
+
+.nav1 a {	color:white;
+	text-decoration:none;
+	margin:0 15px;
+	font-size:19px;
+	text-align:center;
+}
+
+.nav1 a:hover{
+	font-size:23px;
+	color:white;
+}
+body {
+	  background-image: url('template.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.logi{
+	width:80px;
+	height:50px;
+	align-items:left;
+	
+}
+
+.txt {
+	background-color:#261431;
+    width: 760px;
+    height: 300px;
+    color: white;
+    margin-top:100px;
+    margin-left:45px;
+    padding-right:10px;
+    padding-top:20px;
+    border-radius:6%;
+}
+
+
+.txt h1 {
+   display:flex;
+   flex-direction:row;
+   color:white;
+   padding-left:50px;
+   margin:auto;
+}
+
+.bbno {
+	color:#1c0f24;
+}
+
+
+
+.button1 {
+  align-items: center;
+  appearance: none;
+  background-color: #261431;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#130A19 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 50px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 25px;
+  margin-left:50px;
+  margin-top: 30px;
+}
+
+.button1:focus {
+  box-shadow: #130A19 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+}
+
+.button1:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button1:active {
+  box-shadow: #130A19 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.button2 {
+  align-items: center;
+  appearance: none;
+  background-color: #261431;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#130A19 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 32px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 16px;
+  margin-left:5px;
+
+}
+
+.button2:focus {
+  box-shadow: #130A19 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+}
+
+.button2:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button2:active {
+  box-shadow: #130A19 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.sign {
+  align-items: center;
+  appearance: none;
+  background-color: #261431;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#130A19 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 50px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 25px;
+  margin-left:50px;
+  margin-top:10px;
+
+}
+
+.sign:focus {
+  box-shadow: #130A19 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+}
+
+.sign:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.sign:active {
+  box-shadow: #130A19 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+.log {
+  align-items: center;
+  appearance: none;
+  background-color: #261431;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#130A19 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 50px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 25px;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.log:focus {
+  box-shadow: #130A19 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+}
+
+.log:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.log:active {
+  box-shadow: #130A19 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+/* Account */
+
+.Download {
+  appearance: none;
+  background-color: #261431;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 13px 26px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left:40px;
+}
+
+.Download:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.Download:hover {
+  background-color: #261431;
+}
+
+.Download:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.Download:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.Download:active {
+  background-color: #221431;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.downtxt {
+	font-size: 50px;
+	color:white;
+	padding-top:40px;
+	padding-left:40px;
+    margin-right:600px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SUPPORT */
+
+.support {
+	color:white;
+	font-size:50px;
+	padding-top: 30px;
+    display:flex;
+    flex-direction:row;  
+    padding-left:50px;
+	margin-right:600px;
+}
+
+.supportp {
+	color:white;
+	font-size:25px;
+}
+
+.emails {
+  align-items: center;
+  appearance: none;
+  background-color: #261431;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#130A19 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 50px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 25px;
+  margin-left:50px;
+  margin-top:10px;
+
+}
+
+.emails:focus {
+  box-shadow: #130A19 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+}
+
+.emails:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #130A19 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.emails:active {
+  box-shadow: #130A19 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+a { 
+    text-decoration:none;
+	color:white;
+}
+
+
+@media screen and (max-width: 600px) {
+	
+	.txt {
+		font-size: 20px;
+	}
+}
